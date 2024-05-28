@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "IranSans";
+    src: url('./fonts/IRANSansFaNum_Medium.woff2') format('woff2');
+}
+body {
+    font-family: 'IranSans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.drop-zone {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #333;
+    transition: background-color 0.3s, border-color 0.3s;
+    cursor: pointer;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.drop-zone.dragover {
+    background-color: #e0f7fa;
+    border-color: #26a69a;
+}
+
+#preview img {
+    width: 100px;
+    height: 130px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* style.css
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.drop-zone {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #333;
+    transition: background-color 0.3s, border-color 0.3s;
+    cursor: pointer;
+}
+
+.drop-zone.dragover {
+    background-color: #e0f7fa;
+    border-color: #26a69a;
+}
+
+#preview img {
+    max-width: 300px;
+    margin-top: 20px;
+} */
