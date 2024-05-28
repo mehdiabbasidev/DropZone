@@ -8,4 +8,4 @@
 
 ## نصب و اجرا
 
-git clone https://github.com/yourusername/drop-zone.git
+git clone https://github.com/mehdiabbasidev/DropZone.git
